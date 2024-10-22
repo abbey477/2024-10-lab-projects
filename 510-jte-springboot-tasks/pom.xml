@@ -30,10 +30,13 @@
 		<java.version>22</java.version>
 	</properties>
 	<dependencies>
+		<!-- Spring Framework -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+
+		<!-- JTE -->
 		<dependency>
 			<groupId>gg.jte</groupId>
 			<artifactId>jte</artifactId>
@@ -45,6 +48,7 @@
 			<version>3.1.12</version>
 		</dependency>
 
+		<!-- Tests -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
